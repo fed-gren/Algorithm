@@ -1,0 +1,1 @@
+const countBits = n => Number(n).toString(2).split("").filter(b => b === "1").length;
